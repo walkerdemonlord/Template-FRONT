@@ -1,0 +1,65 @@
+<!--RESETANDO PRÉCONFIGURADOS-->
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    
+}
+
+.logo {
+
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+
+}
+
+
+.nav-links {
+
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+
+.nav-links a {
+
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    letter-spacing: 3px;
+
+}
+
+.burger div {
+
+    display: flex;
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+
+}
+
+a:hover {
+
+    color: red;
+
+}
